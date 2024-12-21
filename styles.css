@@ -136,8 +136,8 @@ html {
     font-weight: 400;
     line-height: 1.875rem;
     margin-bottom: 1.875rem;
-    width: 550px;
-    text-align: center;
+    width: 450px;
+    /* text-align: center; */
   }
   .drawer-header {
     display: flex;
@@ -294,6 +294,9 @@ html {
         justify-content: center;
         margin-left: 0;
         width: 100%;
+    }
+    .content .text p {
+        text-align: center;
     }
     /* .text
     {
